@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Mental Health Questionnaire">
+    <meta name="description" content="Check your mental health status.">
+    <meta name="author" content="Aaishika, Aniruddha">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Check your Mental Health!</title>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  </head>
+  <body>
+    <div class="w-100">
+        <nav class="navbar my-navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="https://image.shutterstock.com/image-vector/brain-vector-icon-logo-design-260nw-1174014466.jpg" alt="Logo" />
+                Mental Health</a>
+              <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="iconify bar-icon" data-icon="fa-solid:bars" data-inline="false"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item nav-active">
+                    <a class="nav-link" href="#"
+                      >Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Questionnaire
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="adhd.html">ADHD</a>
+                      <a class="dropdown-item" href="anxiety.html">Anxiety</a>
+                      <a class="dropdown-item" href="bipolar.html">Bipolar Disorder</a>
+                      <a class="dropdown-item" href="depression.html">Depression</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      
+          <div class="jumbotron bg-white">
+            <div class="container">
+              <div class="row mt-5 justify-content-between">
+                <div class="col-md-5">
+                  <h1 style="margin-top: 60px;" class="mb-3 font-weight-bold">
+                    Your Mental Health is Important.
+                  </h1>
+                  <p class="mb-4">
+                    Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.
+                  </p>
+                  <button class="btn btn-warning font-weight-bold" data-toggle="modal" data-target="#exampleModalCenter">
+                    Check yours!
+                  </button>
+
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Take a Test</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            Are you thinking about seeking the help of a therapist? If certain issues have been causing problems in your life and you aren't sure how to make the necessary changes, therapy can help. With the help of a professional, you can get out of an unhealthy cognitive, emotional, and behavioral pattern.
+<br>
+                            Pick a Disorder you think you might carry, fill out the following questionnaire truthfully, paying special attention to the specified time period to which the questions refer. The results will only be helpful if you answer in an honest and complete manner.
+                        </div>
+                        <div class="modal-header">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button class="btn btn-warning font-weight-bold" onclick=" window.open('adhd.html','_blank')">
+                            ADHD
+                          </button>
+                          <button class="btn btn-warning font-weight-bold" onclick=" window.open('anxiety.html','_blank')">
+                            Anxiety
+                          </button>
+                          <button class="btn btn-warning font-weight-bold" onclick=" window.open('bipolar.html','_blank')">
+                            Bipolar
+                          </button>
+                          <button class="btn btn-warning font-weight-bold" onclick=" window.open('depression.html','_blank')">
+                            Depression
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="https://image.freepik.com/free-vector/illustration-with-young-people-talking_52683-29824.jpg" alt="" class="img-fluid"/>
+                </div>
+              </div>
+              
+            <div id="about">
+                <div class="row mt-5 justify-content-between">
+                <div class="col-md-6">
+                    <img
+                      src="https://dz9yg0snnohlc.cloudfront.net/is-it-normal-to-talk-to-random-people-online-1-new.jpg" alt="" class="img-fluid"/>
+                </div>
+                <div class="col-md-5">
+                    <h1 style="margin-top: 60px;" class="mb-3 font-weight-bold">
+                      About The Developers
+                    </h1>
+                    <p class="mb-4">
+                      This Website is created only for educational research purpose only. The main motive of this website is to provide a platform to evaluate the status of certain mental disorders according to the research by us by taking up the questionnaires. It is also to be noted that we don’t store any kind of data under any circumstances.
+                    </p>
+
+                </div></div>
+            </div>
+            <div id="about">
+              <div class="row mt-5 justify-content-between">
+                <div class="col-md-5">
+                  <h1 style="margin-top: 60px;" class="mb-3 font-weight-bold">
+                    About The Website
+                  </h1>
+                  <p class="mb-4">
+                    This Website is created only for educational research purpose only. The main motive of this website is to provide a platform to evaluate the status of certain mental disorders according to the research by us by taking up the questionnaires. It is also to be noted that we don’t store any kind of data under any circumstances.</p>
+
+              </div>
+              <div class="col-md-6">
+                  <img
+                    src="https://image.freepik.com/free-vector/artistic-illustration-with-people-waving-hand_52683-30079.jpg" alt="" class="img-fluid"/>
+              </div>
+              </div>
+          </div>
+            </div>
+            </div>
+          </div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; bottom: 0; left: 0; width: 100%;">
+      <div class="container d-block mx-auto">
+        <p style="text-align: center;"><small style="color: white;text-align: center;">We do not store any data.<br>NOTE:  Please note this is in no intention to replace the orthodox and traditional way of visiting a psychiatrist rather we always encourage to do so. It’s just an attempt to give users a more comfortable environment to get to know themselves.</small></p>
+      </div>
+    </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
